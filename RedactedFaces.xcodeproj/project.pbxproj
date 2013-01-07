@@ -19,6 +19,8 @@
 		4DED5C81169A5158008F38B1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DED5C7F169A5158008F38B1 /* MainStoryboard_iPhone.storyboard */; };
 		4DED5C84169A5158008F38B1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DED5C82169A5158008F38B1 /* MainStoryboard_iPad.storyboard */; };
 		4DED5C87169A5158008F38B1 /* MHPRFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED5C86169A5158008F38B1 /* MHPRFViewController.m */; };
+		4DED5C8E169A52BF008F38B1 /* faces.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DED5C8D169A52BF008F38B1 /* faces.png */; };
+		4DED5C90169A533C008F38B1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DED5C8F169A533C008F38B1 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		4DED5C83169A5158008F38B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		4DED5C85169A5158008F38B1 /* MHPRFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHPRFViewController.h; sourceTree = "<group>"; };
 		4DED5C86169A5158008F38B1 /* MHPRFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHPRFViewController.m; sourceTree = "<group>"; };
+		4DED5C8D169A52BF008F38B1 /* faces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faces.png; sourceTree = "<group>"; };
+		4DED5C8F169A533C008F38B1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DED5C90169A533C008F38B1 /* CoreImage.framework in Frameworks */,
 				4DED5C68169A5158008F38B1 /* UIKit.framework in Frameworks */,
 				4DED5C6A169A5158008F38B1 /* Foundation.framework in Frameworks */,
 				4DED5C6C169A5158008F38B1 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +80,7 @@
 		4DED5C66169A5158008F38B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DED5C8F169A533C008F38B1 /* CoreImage.framework */,
 				4DED5C67169A5158008F38B1 /* UIKit.framework */,
 				4DED5C69169A5158008F38B1 /* Foundation.framework */,
 				4DED5C6B169A5158008F38B1 /* CoreGraphics.framework */,
@@ -106,6 +112,7 @@
 				4DED5C79169A5158008F38B1 /* Default.png */,
 				4DED5C7B169A5158008F38B1 /* Default@2x.png */,
 				4DED5C7D169A5158008F38B1 /* Default-568h@2x.png */,
+				4DED5C8D169A52BF008F38B1 /* faces.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,6 +175,7 @@
 				4DED5C7E169A5158008F38B1 /* Default-568h@2x.png in Resources */,
 				4DED5C81169A5158008F38B1 /* MainStoryboard_iPhone.storyboard in Resources */,
 				4DED5C84169A5158008F38B1 /* MainStoryboard_iPad.storyboard in Resources */,
+				4DED5C8E169A52BF008F38B1 /* faces.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
