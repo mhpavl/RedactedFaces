@@ -41,9 +41,23 @@
                                     <action selector="tappedRedacted:" destination="2" eventType="touchUpInside" id="4EE-TH-bKO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cv4-QS-8US">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Mask">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedMask:" destination="2" eventType="touchUpInside" id="grf-Y7-asu"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cv4-QS-8US" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="5M4-kQ-Urf"/>
                             <constraint firstItem="8BK-WA-113" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="Ffd-QN-KnW"/>
                             <constraint firstItem="ppZ-Nf-joQ" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KAl-8c-2K6"/>
                             <constraint firstItem="8BK-WA-113" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="O8i-XC-dKX"/>
@@ -51,6 +65,7 @@
                             <constraint firstItem="8BK-WA-113" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="iMU-0w-M9B"/>
                             <constraint firstItem="qXn-Tt-Wgd" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" symbolic="YES" type="default" id="lPM-6R-G21"/>
                             <constraint firstItem="8BK-WA-113" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="sBw-eH-lQD"/>
+                            <constraint firstAttribute="trailing" secondItem="cv4-QS-8US" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="slV-ia-iSH"/>
                             <constraint firstItem="ppZ-Nf-joQ" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" symbolic="YES" type="default" id="yfO-9Q-BO6"/>
                         </constraints>
                     </view>
@@ -66,6 +81,7 @@
         <class className="MHPRFViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MHPRFViewController.h"/>
             <relationships>
+                <relationship kind="action" name="tappedMask:"/>
                 <relationship kind="action" name="tappedOriginal:"/>
                 <relationship kind="action" name="tappedRedacted:"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>

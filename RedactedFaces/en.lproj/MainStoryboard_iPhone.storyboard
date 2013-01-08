@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="c3D-nV-qzX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="6pL-NK-B53"/>
                             <constraint firstAttribute="trailing" secondItem="Jic-qh-yUz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="GEY-2k-IcR"/>
